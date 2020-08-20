@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />  <!-- need to add this line as i am working with media queries -->
+        <title>Atul Gopinathan</title>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <!-- JS, Popper.js, and jQuery -->
+        <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"</script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/39286e5c01.js" crossorigin="anonymous"></script>
+
+
+        <!-- my css file -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <section id="intro-section">
+            <img class="sun" src="images/sun.svg" alt="sun">
+            <!-- <img class="birds" src="images/birds.png"> -->
+            <div class="intro-text">
+                <h1>Hi,<br>I'm Atul</h1>
+                <p>CS-student and a developer</p>
+                <br><br>
+                <p>How's your day going? ●‿●</p>
+            </div>
+            <img class="land" src="images/land.svg" alt="land">
+        </section>
+
+        <!-- Bg color changing div -->
+        <div id="dynamic-background">
+
+            <!-- ABOUT SECTION -->
+            <section id="about-section">
+                <div class="row">
+                    <img class="col-md-4 laptop" src="images/laptop.svg" alt="laptop">
+                    <div class="about-text col-md-8">
+                        <h1>About me</h1>
+                        <p>The name is Atul Gopinathan. Currently pursuing a degree in Computer Science. I'm a linux enthusiast and a distro-hopper at free time. Having developed a keen interest in the field of AI and Data-Science, I like to work on projects related to these fields. But ofcourse, my interests aren't just limited to this as I love to explore other fields too.</p>
+                    </div>
+                </div>
+                <div class="space"></div>
+
+            </section>
+
+            <section id="projects-section">
+                <h1>Here are some of my work</h1>
+
+                <!-- cards of projects -->
+                <div class="container projects-grid">
+                    <div class="row justify-content-center">
+
+                        <div class="flip-card col-md-4">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img class="project-img" src="images/terminal.svg" alt="linux terminal assistant">
+                                    <p>Linux Terminal Assistant</p>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>A terminal assistant which can answer and help out with linux related queries.
+                                    <br>
+                                    <a href="https://github.com/atul-g/linux_terminal_assistant">Project Link</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="flip-card col-md-4">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img class="project-img" src="images/dodge-bullet.svg" alt="Bullet Dodger">
+                                    <p>Bullet Dodger</p>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>A reinforcement learning environment in which the agent learns to dodge bullets fired at it.
+                                    <br>
+                                    <a href="https://github.com/atul-g/dodge_the_ammo">Project Link</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flip-card col-md-4">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img class="project-img" src="images/teeth.svg" alt="Cavity Detection">
+                                    <p>Cavity Detection</p>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>In this project I use tensorflow's Object Detection API to detect tooth decay and possiblse early stage cavities.
+                                    <br>
+                                    <a href="https://github.com/atul-g/object_detection_on_cavities">Project Link</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flip-card col-md-4">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img class="project-img" src="images/roadmap.svg" alt="Roadmap">
+                                    <p>Roadmap</p>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>Roadmap is a flutter application where users can write down plans or a roadmap of any tasks or goals that they have and want to achieve.
+                                    <br>
+                                    <a href="https://github.com/atul-g/flutter-roadmap">Project Link</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <div class="moon-div">
+                <img id="moon" class="moon-img" src="images/moon.svg" alt="moon">
+            </div>
+
+            <section id="contact-section">
+                <div class="row">
+                    <img class="col-md-4 mail-img" src="images/mail.svg" alt="mail me">
+                    <div class="col-md-8 contact-text">
+                        <h1>Contact Me!</h1>
+                        <p>If you think I could help you out in a project or you want to talk about some cool Linux Distro you came across, feel free to contact me.
+                        </p>
+                        <br>
+                        <a href="mailto:atulgopinathan@gmail.com" class="btn btn-outline-light btn-lg">Email me</a>
+                        <a class="resume-button btn btn-outline-light btn-lg" href="https://drive.google.com/file/d/1_B1ESK-Ar1dzhaQMTh7eiVJSqWTAKnp6/view?usp=sharing"><i class="fas fa-arrow-down"></i> Resume</a>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="footer-section">
+                <div class="row justify-content-center my-account-links">
+                    <a class="column" href="https://github.com/atul-g">
+                        <img src="images/github.svg"> 
+                    </a>
+
+                    <a class="column" href="https://www.linkedin.com/in/atul-gopinathan67/">
+                        <img src="images/linkedin.svg">
+                    </a>
+
+                    <a class="column" href="https://twitter.com/atulu_10">
+                        <img src="images/twitter.svg">
+                    </a>
+                </div>
+                <div class="copyright">© 2020  
+                    <a href="atul-g.github.io">Atul Gopinathan</a>
+                    . All rights reserved
+                </div>
+            </section>
+
+        </div>
+
+
+        <script src="index.js" charset="utf-8"></script>
+    </body>
+</html>

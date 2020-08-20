@@ -1,2 +1,2 @@
-# atul-g.github.io
-My portfolio website
+# My Portfolio Website
+Repo of my portfolio website.
