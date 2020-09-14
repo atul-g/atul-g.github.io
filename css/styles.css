@@ -262,6 +262,18 @@ body {
     margin: 1rem;
 }
 
+
+.account-logo {
+    border-radius: 100%;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+.account-logo:hover {
+    border-radius: 100%;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.4);
+}
+
+
 .copyright {
     background-color: #1A78C3;
     padding: 1rem;
