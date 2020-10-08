@@ -274,14 +274,6 @@ body {
 }
 
 
-/** iste logo code **/
-
-.iste-logo {
-    height: 80px;
-}
-
-/** iste logo end **/
-
 .copyright {
     background-color: #1A78C3;
     padding: 1rem;
@@ -406,7 +398,7 @@ body {
     /** footer section **/
 
     .my-account-links {
-        padding: 1rem 1rem 1rem 2rem;   /** CHANGED FOR ISTE-LOGO ACCOMODATION. (ORIGINAL WAS "padding: 1rem 2rem 1rem 3rem;" **/
+        padding: 3rem 3rem 1rem 4.2rem;
     }
 
 
@@ -414,15 +406,6 @@ body {
         width: 3rem;
         margin: 1rem;
     }
-    
-    /** iste logo code **/
-
-    .iste-logo {
-        height: 48px;
-    }
-
-    /** iste logo end **/
-
 
     .copyright {
         font-size: 0.75rem;
