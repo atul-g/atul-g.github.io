@@ -1,5 +1,5 @@
 # Linux Kernel Spring Bug Fixing Mentorship 2021
-
+---
 I started my LFX mentorship on bug fixing on March of 2021. It was a 3 month
 program with work primarily focusing on fixing bugs in the Kernel. The purpose
 of this blog is to share my experiences and work during this period of
@@ -43,7 +43,7 @@ learning about **ebpf** and wrote few programs using **BCC** to trace the
 return values of a core kernel function while reproducing a bug. There was a
 small period when there were occurences of several RCU related bugs.  As I had
 no prior knowledge of this, I got help from a friend and read through several
-articles series in [LWN](lwn.net) in order to learn about RCU so that I could understand
+articles series in [LWN](https://lwn.net/) in order to learn about RCU so that I could understand
 the bugs.
 
 ## Important Tools
