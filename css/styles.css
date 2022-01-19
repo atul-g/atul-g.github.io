@@ -4,6 +4,31 @@ body {
     font-family: "Karla";
 }
 
+/** top navbar **/
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: blue;
+}
 
 /** intro section **/
 
@@ -22,10 +47,10 @@ body {
 
 @keyframes dynamic-sun-rays {
     from {
-        box-shadow: 0px 0px 10px 20px #FFFF77;
+	box-shadow: 0px 0px 10px 20px #FFFF77;
     }
     to {
-        box-shadow: 0px 0px 20px 40px #FFFF77;
+	box-shadow: 0px 0px 20px 40px #FFFF77;
     }
 }
 
@@ -198,11 +223,11 @@ body {
 
 @keyframes rise {
     from {
-        left: -300px;
+	left: -300px;
     }
 
     to {
-        left: 50px;
+	left: 50px;
     }
 
 }
@@ -288,127 +313,131 @@ body {
 /** MEDIA QUERIES **/
 @media only screen and (max-width: 950px) {  /** for 950px or lesser width screen **/
 
+    .topnav a {
+	font-size: 1rem;
+    }
+
     .sun {
-        width: 25%;
-        top: 10%;
+	width: 25%;
+	top: 10%;
     }
 
     .land {
-        margin-top: 25rem;
+	margin-top: 25rem;
     }
 
     .intro-text h1 {
-        font-size: 3.5rem;
+	font-size: 3.5rem;
     }
 
     .intro-text p {
-        font-size: 1.1rem;
+	font-size: 1.1rem;
     }
 
 
     /** about-section **/
     #about-section .space {
-        height: 0;
+	height: 0;
     }
 
     #about-section .row {
-        padding: 5rem 3rem 3rem 3rem;
+	padding: 5rem 3rem 3rem 3rem;
     }
 
     .laptop {
-        margin-top: 3rem;
-        height: 10rem;
-        padding-left: 2rem;
+	margin-top: 3rem;
+	height: 10rem;
+	padding-left: 2rem;
     }
 
     .about-text {
-        text-align: center;
-        padding: 1rem 0rem 2rem 1rem;
+	text-align: center;
+	padding: 1rem 0rem 2rem 1rem;
     }
 
     .about-text h1 {
-        font-size: 2.5rem;
+	font-size: 2.5rem;
 
     }
 
     .about-text p {
-        font-size: 1.1rem;
+	font-size: 1.1rem;
     }
 
     /** projects-section **/
 
     #projects-section {
-        padding: 2rem;
+	padding: 2rem;
     }
 
     #projects-section h1 {
-        margin: 1rem;
-        font-size: 2.5rem;
+	margin: 1rem;
+	font-size: 2.5rem;
     }
 
     .flip-card {
-        width:215px;
-        height: 270px;
+	width:215px;
+	height: 270px;
     }
 
     .project-img {
-        width: 160px;
-        height: 210px;
+	width: 160px;
+	height: 210px;
     }
 
     /** moon **/
     .moon-div {
-        height: 100px;
+	height: 100px;
     }
 
     .moon-img {
-        top: 10px;
-        width: 150px;
+	top: 10px;
+	width: 150px;
     }
 
     /** contact section **/
     #contact-section {
-        margin: 0rem 0 0rem;
+	margin: 0rem 0 0rem;
     }
 
     #contact-section .row {
-        padding: 1rem 3rem 3rem 3rem;
+	padding: 1rem 3rem 3rem 3rem;
     }
 
     .mail-img {
-        margin-top: 3rem;
-        height: 10rem;
-        padding-left: 2.5rem;
+	margin-top: 3rem;
+	height: 10rem;
+	padding-left: 2.5rem;
     }
 
 
     .contact-text {
-        text-align: center;
-        padding: 1rem 0rem 2rem 1rem;
+	text-align: center;
+	padding: 1rem 0rem 2rem 1rem;
     }
 
     .contact-text h1 {
-        font-size: 2.5rem;
+	font-size: 2.5rem;
     }
 
     .contact-text p {
-        font-size: 1.1rem;
+	font-size: 1.1rem;
     }
 
     /** footer section **/
 
     .my-account-links {
-        padding: 3rem 3rem 1rem 4.2rem;
+	padding: 3rem 1.5rem 1rem 1.8rem;
     }
 
 
     .my-account-links .column {
-        width: 3rem;
-        margin: 1rem;
+	width: 3rem;
+	margin: 1rem;
     }
 
     .copyright {
-        font-size: 0.75rem;
+	font-size: 0.75rem;
     }
 
 }
@@ -418,33 +447,33 @@ body {
 @media only screen and (min-width: 950px) and (max-width: 1300px) {  /** for 950px above and less than 1300px **/
 
     .land {
-        margin-top: 20rem;
+	margin-top: 20rem;
     }
 
     .intro-text h1 {
-        font-size: 3rem;
+	font-size: 3rem;
     }
 
     .intro-text p {
-        font-size: 1.5rem;
+	font-size: 1.5rem;
     }
 
     /** about section **/
     #about-section .row {
-        padding: 5rem 0rem 2rem 3rem;
+	padding: 5rem 0rem 2rem 3rem;
     }
 
     .about-text p {
-        font-size: 1.5rem;
+	font-size: 1.5rem;
     }
 
     /** contact section **/
     #contact-section .row {
-        padding: 5rem 0rem 2rem 3rem;
+	padding: 5rem 0rem 2rem 3rem;
     }
 
     .contact-text p {
-        font-size: 1.5rem;
+	font-size: 1.5rem;
     }
 
 }
